@@ -1,7 +1,7 @@
 # Twitter-Ad-Analysis
 
 ## Objective
-Identify tweets that refer to commercials played during super bowl 2020 game. 
+Identify tweets that refer to commercials played during super bowl 2020 game given a corpus of tweets and context of advertisement videos screened during the game. 
 
 ## Methods used
 ### Bag of Words
