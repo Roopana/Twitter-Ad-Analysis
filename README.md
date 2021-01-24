@@ -15,14 +15,14 @@ Topic Modelling is an unsupervised technique to identify topics in a given text 
 - [Gibbs Sampling algorithm for the Dirichlet Multinomial Mixture model](http://dbgroup.cs.tsinghua.edu.cn/wangjy/papers/KDD14-GSDMM.pdf) for short text clustering (GSDMM)
 
 ## BERT
- BERT stands for Bidirectional Encoder Representation from Transformers. It captures text context unlike bag of words and topic modelling approaches. BERT is trained for \
+ BERT stands for Bidirectional Encoder Representation from Transformers. It captures text context unlike bag of words and topic modelling approaches. BERT is trained for
  1. Masked Language modelling and 
  2. Next Sentence prediction tasks. 
  
  It considers all words of an input sentence simultaneosuly and then uses an _attention_ mechanism to develop contextual meaning of words. The attention heads help to identify the words that contribute the most in a sentence. 
 
-_BERT-base_ model has 12 llayers with 12 attention heads
-_BERT-large_ model has 24 layers with 16 attention heads. 
+_BERT-base_ model has 12 layers with 12 attention heads
+_BERT-large_ model has 24 layers with 16 attention heads
 
 In this project __BERT-base model__ is used as it is sufficient for the current problem
 
