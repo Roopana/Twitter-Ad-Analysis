@@ -39,6 +39,6 @@ Stand alone BERT did not perform well in identifying all the ~60 ads present due
 ## Results
 Below are the results for each model:
 
-![](results\classification_performance.png)
+![](results/classification_performance.png)
 
-![](results\graph_classifier_performance.png)
+![](results/graph_classifier_performance.png)
