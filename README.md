@@ -43,4 +43,4 @@ Below are the results for each model:
 
 ![](results/graph_classifier_performance.png | width=48)
 
-<img src="results/graph_classifier_performance.png" width="40%">
+<img src="results/graph_classifier_performance.png" width="60%">
