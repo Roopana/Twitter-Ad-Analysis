@@ -14,6 +14,13 @@ Topic Modelling is an unsupervised technique to identify topics in a given text 
 - Guided LDA
 - [Gibbs Sampling algorithm for the Dirichlet Multinomial Mixture model](http://dbgroup.cs.tsinghua.edu.cn/wangjy/papers/KDD14-GSDMM.pdf) for short text clustering (GSDMM)
 
+LDA and GSDM are unsupervised generative probabilistic models which analyze topic composition in text corpora. When LDA is run on the tweets data set, it gives only a brief idea of topic distribution in the data. But most of the topics identified by LDA are not ad-related as ad-related tweets have a minority presence in our dataset collected in the context of the Superbowl. 
+
+Gibbs Sampling algorithm for the Dirichlet Multinomial Mixture model (Yin and Wang 2014) is a variation of the LDA method that overcomes the sparse and high dimensional nature of short text data sets. GSDMM forms topic clusters iteratively using dirichlet dis- tribution and provides a good balance between homogeneity and completeness of clusters.
+
+In the GSDMM implementation, we observed better performance than LDA. However both the approaches of LDA and GSDMM, rely on good representation of classes available in the training dataset, and hence these approaches do not work well in our setting where tweets talking about commercials are very less (1%) in the whole dataset.
+
+
 ## BERT
  BERT stands for Bidirectional Encoder Representation from Transformers. It captures text context unlike bag of words and topic modelling approaches. BERT is trained for
  1. Masked Language modelling and 
