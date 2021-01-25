@@ -36,7 +36,9 @@ In this project __BERT-base model__ is used as it is sufficient for the current 
 
 Stand alone BERT did not perform well in identifying all the ~60 ads present due to sparse nature of data. Stratified sampling during training did not help as expected. In order to increase the data signal each sentence in the training data is appended with ad context and annotated as whether ad related or not. This exploded the dataset to __NK__ where __N__ is the initial number of tweets and __K__ is the number of ad classes. This method gave better performance than previous models and classical models - Logistic Regression, SVM and Naive Bayes TF-IDF. 
 
+## Results
 Below are the results for each model:
 
+![](results\classification_performance.png)
 
-
+![](results\graph_classifier_performance.png)
